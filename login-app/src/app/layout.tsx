@@ -34,7 +34,7 @@ export default function RootLayout({
               <Link href="/login">Logout</Link>
             </li>
           </ul>
-          <div className={styles.container}>{children}</div>
+          <div >{children}</div>
         </div>
       </body>
     </html>
